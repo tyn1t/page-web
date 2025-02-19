@@ -3,8 +3,8 @@ import Image from "next/image"
 
 export function Hero(){
     return (
-        <section className="hero">
-            <div className="p-y">
+        <section className="grid grid-cols-2">
+            <div className="py-12">
                 <h1 className="text-4xl font-semibold">
                     <span className="text-green-500">Perfonalizer</span> 
                     sua Roupa
@@ -12,10 +12,10 @@ export function Hero(){
                 <p className="mt-4 text-gray-500"> 
                     teste teste teste teste teste  teste testeteste
                     teste teste teste teste teste  teste testeteste
-                    teste teste teste teste teste  teste testeteste
+                    teste teste teste teste teste 
                 </p>
-                <div className="flex items-center gap-4 m-8">
-                    <button className="bg-primary items-center flex gap-2 text-white px-8 py-2 rounded-full">
+                <div className="flex text-sm items-center gap-8 m-8">
+                    <button className="flex bg-primary items-center gap-2 text-white px-4 py-2 rounded-full">
                         Order now
                         <Right/>
                     </button>

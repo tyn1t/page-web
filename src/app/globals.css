@@ -63,10 +63,7 @@
 }
 
 
-section.hero {
-  @apply grid;
-  grid-template-columns: .5fr .6fr;
-}
+
 
 @layer base {
   * {
