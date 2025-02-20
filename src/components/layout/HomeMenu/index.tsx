@@ -6,7 +6,7 @@ export function HomeMenu () {
             <div>
                 <div className="h-48  absolute w-48 -left-12 text-left">
                         <Image 
-                            src={"/sallad1.png"}
+                            src={"./sallad1.png"}
                             alt={"sallad"}
                             fill
                             className="object-contain"
@@ -14,7 +14,7 @@ export function HomeMenu () {
                     </div>
                     <div className="h-48 absolute w-48 -top-12 -right-12 text-right">
                         <Image 
-                            src={"/sallad2.png"}
+                            src={"./sallad2.png"}
                             alt={"sallad"}
                             fill
                             className="object-contain"

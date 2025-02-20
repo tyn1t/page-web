@@ -26,7 +26,7 @@ export function Hero(){
                 </div>
             </div>
             <div className="relative">
-                <Image src={"/pizza.png"} 
+                <Image src={"./pizza.png"} 
                         alt={"pizza"}
                         fill
                         className="object-contain"
