@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export function Hero(){
     return (
-        <section className="grid grid-cols-2">
+        <section className="grid grid-cols-2 mt-4">
             <div className="py-12">
                 <h1 className="text-4xl font-semibold">
                     <span className="text-green-500">Perfonalizer</span> 
@@ -26,7 +26,7 @@ export function Hero(){
                 </div>
             </div>
             <div className="relative">
-                <Image src={"./pizza.png"} 
+                <Image src={"/pizza.png"} 
                         alt={"pizza"}
                         fill
                         className="object-contain"
